@@ -1,0 +1,415 @@
+.list {
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+
+
+img {
+    margin-bottom: 15px;
+    width: 60%;
+    border-radius: 100%;
+    padding: 8px;
+
+    background-color: #d8653bd3;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+li {
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.navbar {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 100%;
+    max-width: 270px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #bd5d38;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.navbar_image {
+    display: flex;
+    justify-content: center;
+}
+
+
+.hidden_navbar {
+    display: none;
+}
+
+.about {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    padding: 60px;
+    margin-left: auto;
+    width: calc(100% - 270px);
+}
+
+.about_person_upper {
+    font-size: 48px;
+
+}
+
+.about_person_lower {
+    color: grey;
+}
+
+.about_text {
+
+    width: 55%;
+    color: grey;
+}
+
+.about_icon {
+    color: white;
+    padding: 10px;
+    background-color: 1px solid grey;
+    background-color: grey;
+    border-radius: 100%;
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+.about_icon:hover {
+    cursor: pointer;
+    background-color: #bd5d38;
+}
+
+.experience {
+    min-height: 100vh;
+    padding: 60px;
+    margin-left: auto;
+    width: calc(100% - 270px);
+}
+
+.experience_heading {
+    margin-bottom: 70px;
+}
+
+.experience_senior_heading_upper {
+    font-size: 25px;
+}
+
+.experience_senior_heading_lower {
+    font-size: 30px;
+    color: grey;
+
+}
+
+.experience_senior_content {
+    color: grey;
+}
+
+.experience_senior {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.experience_senior_date {
+    color: #bd5d38;
+}
+
+.experience_senior_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.experience_senior_right {
+    width: 20%;
+}
+
+span {
+    color: #bd5d38;
+}
+
+
+
+
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    min-height: 100vh;
+    padding: 60px;
+    margin-left: auto;
+    width: calc(100% - 270px);
+}
+
+.skill_heading {
+    font-size: 40px;
+}
+
+.programming_languages {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.workflow {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.programming_languages_icons {
+    display: flex;
+    gap: 10px;
+    font-size: 40px;
+}
+
+.workflow_lower {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.interest {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-left: auto;
+    width: calc(100% - 270px);
+    display: flex;
+
+    gap: 40px;
+    min-height: 100vh;
+    padding: 60px;
+
+
+}
+
+.interest_head {
+    font-size: 32px;
+}
+
+.interest_content {
+    color: gray;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 70%;
+}
+
+.awards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: auto;
+    width: calc(100% - 270px);
+
+
+    gap: 40px;
+    min-height: 100vh;
+    padding: 60px;
+
+}
+
+.awards_head {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.awards_context {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.trophy {
+
+    display: flex;
+
+}
+
+.trophy>p {
+    color: grey;
+    font-size: 18px;
+}
+
+.trophy>i {
+    color: gold;
+}
+
+
+.education{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: auto;
+    width: calc(100% - 270px);
+    padding: 60px;
+}
+.education_head{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.university_head_first{
+    font-size: 18px;
+}
+.university_head_second{
+    font-size: 18px;
+    color: grey;
+}
+.university{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.university_content{
+    color: grey;
+}
+
+.university_left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+.school_head_first{
+    font-size: 18px;
+}
+.school_head_second{
+    font-size: 18px;
+    color: grey;
+}
+.school{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.school_content{
+    color: grey;
+}
+
+.school_left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .navbar {
+        display: none;
+
+    }
+
+    .hidden_navbar {
+        position: fixed;
+       width: 100%;
+        display: block;
+
+    }
+
+    .hidden_navbar_elements {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        background-color: #bd5d38;
+        min-height: 60px;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .hidden_navbar_text {
+        font-size: 20px;
+    }
+
+    .hidden_navbar_menu {
+        color: rgba(255, 255, 255, 0.55);
+        font-size: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.55);
+        padding: 10px 20px;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .about_text {
+        width: 100%;
+    }
+
+    .experience {
+        width: 100%;
+    }
+
+    .experience_senior_left {
+        width: 80%;
+    }
+
+    .interest {
+        width: 100%;
+    }
+
+    .interest_content {
+        width: 100%;
+    }
+
+    .awards {
+        width: 100%;
+    }
+
+    .awards_context {
+        width: 100%;
+    }
+
+    .skill {
+        width: 100%;
+    }
+
+    .programming_languages_icons {
+        width: 100%;
+    }
+    .education{
+        width: 100%;
+    }
+}
